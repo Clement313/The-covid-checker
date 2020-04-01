@@ -1,0 +1,5 @@
+*.bootstrap.js
+*.bootstrap.min.js
+*.jquery-3.4.1.min.js
+*.mdb.min.js
+
