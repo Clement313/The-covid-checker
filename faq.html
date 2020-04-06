@@ -13,10 +13,26 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
 
 
   <style>
+    body{
+   animation: bgchange 10s infinite; 
+}
 
+@keyframes bgchange {
+    0% {background-color: #272727;}
+    20% {background-color: rgb(37, 145, 218);}
+    40% {background-color: rgb(223, 201, 103);}
+    60% {background-color: rgb(183, 141, 189);}
+    80% {background-color: darkgreen;}
+    100% {background-color: #272727;}
+}
+#kolor{
+    color: white;
+}
 
   </style>
 </head>
@@ -122,7 +138,7 @@
         </a>
       </div>
 
-      <h2 class="text-center">People who have recently travelled outside Nigeria or have been in contact with a confirmed case of COVID-19 should immediately contact NCDC on 07032864444 or 080097000010 (toll-free) if they feel unwell.</h2>
+      <h2 class="text-center"> <span id="kolor">People who have recently travelled outside Nigeria or have been in contact with a confirmed case of COVID-19 should immediately contact NCDC on 07032864444 or 080097000010 (toll-free) if they feel unwell.</span> </h2>
 
 
    
@@ -131,7 +147,7 @@
 40%, rgb(235, 198, 204) 40%), green 30%;">
 
   <!--Section heading-->
-  <h2 class="h1 py-5 font-weight-bold text-center">Frequently Asked Questions</h2>
+  <h2 class="h1 py-5 font-weight-bold text-center animated infinite swing delay-20s">Frequently Asked Questions</h2>
   <!--Section description-->
   <!-- <p class="px-5 mb-5 pb-3 lead grey-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
     sed do eiusmod tempor incididunt ut labore et dolore magna
@@ -212,7 +228,10 @@
           <p class="grey-text">When a person with coronavirus coughs or exhales, droplets land on objects and surfaces around the person. Other people then catch the virus by touching these objects or surfaces, then touching their eyes, nose or mouth.
             People can also catch coronavirus if they breathe in these droplets. This is why it is important to stay at least 2 metres away from a person who is coughing or sneezing.
             </p>
+            
         </div>
+        
+
       </div>
       <!--Grid row-->
 
@@ -330,6 +349,8 @@ Healthcare workers from identified treatment centres are being trained on how to
 
 </section>
 <!--/Section: Features v.4-->
+
+
 
 
 <!-- Footer -->

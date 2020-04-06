@@ -1,0 +1,85 @@
+ /* Necessary for full page carousel*/
+ html,
+ body,
+ header,
+ .view {
+   height: 100%;
+ }
+
+ /* Carousel*/
+ .carousel,
+ .carousel-item,
+ .carousel-item.active {
+   height: 100%;
+ }
+ .carousel-inner {
+   height: 100%;
+ }
+
+ @media (min-width: 800px) and (max-width: 850px) {
+   .navbar:not(.top-nav-collapse) {
+       background: #1C2331!important;
+   }
+}
+
+/* css button animation (for index.html) */
+.hove{
+ text-decoration: none;
+ color: white;
+ font-family: sans-serif;
+ font: 28px;
+ border: 3px solid white;
+ padding: 25px 50px;
+ position: relative;
+ overflow: hidden;
+}
+
+.hove::before{
+ content: '';
+ background-color: #f44336;
+ top: 0;
+ left: 0;
+ width: 90px;
+ height: 90px;
+ position: absolute;
+ z-index: -1;
+ transform: skew(-15deg);
+ animation: moving 1.2% linear infinite;
+ transition: all 0.5s;
+}
+
+@keyframes moving {
+ from { left: -90px; }
+
+ to {left: 90%; }
+}
+
+.hove:hover:before {
+ width: 100%;
+ transform: skew(0deg);
+ animation: none;
+}
+
+/* body animation */
+.bgkolor{
+   animation: bgchange 10s infinite; 
+}
+
+@keyframes bgchange {
+    0% {background-color: #272727;}
+    20% {background-color: rgb(84, 84, 214);}
+    40% {background-color: rgb(230, 120, 101);}
+    60% {background-color: lightblue;}
+    80% {background-color: darkgreen;}
+    100% {background-color: #272727;}
+}
+
+#kolor{
+    color: white;
+}
+
+
+
+
+
+

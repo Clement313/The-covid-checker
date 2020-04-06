@@ -15,6 +15,9 @@
   <link href="css/mdb.min.css" rel="stylesheet">
   <!-- Your custom styles (optional) -->
   <link href="css/style.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
   <style type="text/css">
     /* Necessary for full page carousel*/
     html,
@@ -23,6 +26,10 @@
     .view {
       height: 100%;
     }
+
+    /* .middle{
+      justify-items: center;
+    } */
 
     /* Carousel*/
     .carousel,
@@ -39,6 +46,8 @@
           background: #1C2331!important;
       }
   }
+
+  
 
   </style>
 </head>
@@ -135,7 +144,7 @@
         <!--Grid column-->
         <div class="col-md-6 mb-4 mb-md-0">
 
-        <h2 class="font-weight-bold">Did You Know?</h2>
+        <h2 class="font-weight-bold text-center animated infinite bounce delay-20s">Did You Know?</h2>
 
           <p >Hand Washing is the safest Way to Fight against this deadly pandemic!
             So <strong>Wash your Hands</strong>  regularly with soap and water or use an alcholic based sanitizer for proper hand care. <br>Avoid touching your <em>Face, Nose & Mouth as much as you can.</em>  </p><br>
@@ -186,7 +195,7 @@
   
   <div class="container">
     <div class="row">
-      <div class="col-md-4"><h1  class="h1 green-text"style="text-align:center;">Category 1</h1>  <br> 
+      <div class="col-md-4"><h1  class="h1 green-text middle"style="text-align:center;">Category 1</h1>  <br> 
         <form action="testResult1.html">
           <div class="form-group form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
@@ -216,17 +225,17 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1" >
            <label class="form-check-label" for="exampleCheck1">Can Corona virus allow me to have malaria in peace? It seems that all illnesses are now tied to Covid-19, am not perfect, so i get sick and recover!</label>
          </div>
-        
-           <button type="submit" class="btn btn-success btn-rounded">Check Status</button>
+        <div class="text-center"><button type="submit" class="btn btn-success btn-rounded">Check My Status</button></div>
+           
          </form>
         
         </div>
 
-      <div class="col-md-4"><h1 class="h1 yellow-text" style="text-align:center;">Category 2</h1>  <br>
+      <div class="col-md-4"><h1 class="h1 yellow-text " style="text-align:center;">Category 2</h1>  <br>
         <form action="testResult2.html">
           <div class="form-group form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1" required>
-           <label class="form-check-label" for="exampleCheck1">I currently do not have fever, cough or difficulty breating</label>
+           <label class="form-check-label" for="exampleCheck1">I currently do not have cough, fever or difficulty breating</label>
          </div>
           <div class="form-group form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1" >
@@ -252,7 +261,8 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1" >
            <label class="form-check-label" for="exampleCheck1">Am a pregnant woman, so i experience changes that may occur during pregnancy, however i wash my hands regularly with soap and water.</label>
          </div>
-         <button type="submit" class="btn btn-warning btn-rounded">Check Status </button>
+         <div class="text-center"><button type="submit" class="btn btn-warning btn-rounded">Check My Status </button></div>
+         
         </form>
         </div>
 
@@ -274,7 +284,7 @@
          </div>
           <div class="form-group form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1" >
-           <label class="form-check-label" for="exampleCheck1">I apply alcholic based sanitizer sometimes.</label>
+           <label class="form-check-label" for="exampleCheck1">I lived with some who have been having difficulty breathing / persistently coughing / severe fever for the past two weeks.</label>
          </div>
           <div class="form-group form-check">
             <input type="checkbox" class="form-check-input" id="exampleCheck1" >
@@ -288,7 +298,8 @@
             <input type="checkbox" class="form-check-input" id="exampleCheck1" >
            <label class="form-check-label" for="exampleCheck1">For the past two weeks now, I freely shake hands, hug and enjoy social intimacy with everyone wether they are sick or not.</label>
          </div>
-         <button type="submit" class="btn btn-pink">Check Status </button>
+         <div class="text-center"><button type="submit" class="btn btn-pink">Check My Status </button></div>
+         
         </form>
       
       </div>
@@ -328,8 +339,8 @@
 
       <!-- Grid column -->
       <div class="col-md-2 mb-3">
-        <h6 class="text-camelcase font-weight-bold">
-          <a href="#!"> <em>Stay at home, Work Remotely!</em> </a>
+        <h6 class="text-camelcase font-weight-bold animated infinite pulse delay-20s">
+          <a href="#!" class=""> <em>Stay at home, Work Remotely!</em> </a>
         </h6>
       </div>
       <!-- Grid column -->
@@ -344,7 +355,7 @@
 
       <!-- Grid column -->
       <div class="col-md-2 mb-3">
-        <h6 class="text-camelcase font-weight-bold">
+        <h6 class="text-camelcase font-weight-bold animated infinite flipInX delay-60s">
           <a href="#!"> <em>Excercise At Home</em> </a>
         </h6>
       </div>
