@@ -1,2 +1,2 @@
 
-# Visit our website:
+# Visit our website: http://covidchecker.netlify.com 
